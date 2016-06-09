@@ -35,6 +35,4 @@ var popResult = colors.pop();
 
 scrambledWords.reverse();
 
-var Unscrambled = scrambledWords.sort(function(a,b){
-    return a-b;
-});
+phoneNumber.reverse();
