@@ -18,21 +18,26 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 // do your work below!
 
 //PUSH THIS
-var nameArray = [];
-nameArray.push("Sidney","Dodson");
-
+    var nameArray = [];
+    nameArray.push("Sidney","Dodson");
 //PUSH THIS 2
-var genericNumberArray = [];
-for (i=1;i<=10;i++){
-    genericNumberArray.push(i);
-    }
-
+    var genericNumberArray = [];
+    for (i=1;i<=10;i++){
+        genericNumberArray.push(i);
+        }
 //POP IT
 //var popResult=[];
-var popResult = colors.pop();
-
+    var popResult = colors.pop();
 //REVERSE IT
+    scrambledWords.reverse();
+    phoneNumber.reverse();
+//SHIFT
+    var nextOrder =[];
+    nextOrder = orderQueue.shift();
+//SORT
+    mixedNums.sort();
+    mixedWords.sort();
+//SPLICE
 
-scrambledWords.reverse();
 
-phoneNumber.reverse();
+//console.log(mixedNums);
