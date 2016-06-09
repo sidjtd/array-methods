@@ -16,7 +16,6 @@ var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
-
 //PUSH THIS
     var nameArray = [];
     nameArray.push("Sidney","Dodson");
@@ -26,8 +25,9 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
         genericNumberArray.push(i);
         }
 //POP IT
-//var popResult=[];
     var popResult = colors.pop();
+//var popResult=[];
+
 //REVERSE IT
     scrambledWords.reverse();
     phoneNumber.reverse();
@@ -38,6 +38,13 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
     mixedNums.sort();
     mixedWords.sort();
 //SPLICE
+    notFruit = fruitCollection.splice(1,3);
+    gemBox.splice(5, 8,'Sapphire');
+    //gemBox.splice(9,4);
+    upToTen.splice(2,0,3,4,5,6,7,8);
+    brownOnly.splice(1,5,"brown","brown","brown");
+//UNSHIFT
+    orderedValuesNewLength = orderedValues.unshift(1,2,3);
+    
 
-
-//console.log(mixedNums);
+console.log(brownOnly);
