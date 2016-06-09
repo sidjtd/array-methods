@@ -16,3 +16,14 @@ var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
+
+//PUSH THIS
+var nameArray = [];
+nameArray.push("Sidney","Dodson");
+
+//PUSH THIS 2
+var genericNumberArray = [];
+for (i=1;i<=10;i++){
+    genericNumberArray.push(i);
+    }
+
