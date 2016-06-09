@@ -56,5 +56,9 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 //SLICE
     var favoriteFriends = friends.slice(1,3);
     var owesMoney = friends.slice(3);
-//TO STRING
+//TO STRING 
+    monthNameString = monthNames.toString();
+//INDEX OF
+    var favoriteColor = colors.indexOf('Red');
+    var favoriteEvenNumber =
 console.log(brownOnly);
