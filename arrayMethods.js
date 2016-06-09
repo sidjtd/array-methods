@@ -48,13 +48,13 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 //CONCAT
     var randomThingsArray = genericNumberArray.concat(colors);
     var moreFood = [{takeOut:"chicken"},{takeOut:"fruit"}];
-
     var updatedOrders = orderQueue.concat(moreFood);//THIS ONES NOT DONE
-    
 //JOIN
     var sentence = scrambledWords.join(' ');
     var myFruits = fruitCollection.join(' + ');
 
 //SLICE
-    favoriteFriends = friends.slice();
+    var favoriteFriends = friends.slice(1,3);
+    var owesMoney = friends.slice(3);
+//TO STRING
 console.log(brownOnly);
