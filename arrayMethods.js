@@ -30,3 +30,11 @@ for (i=1;i<=10;i++){
 //POP IT
 //var popResult=[];
 var popResult = colors.pop();
+
+//REVERSE IT
+
+scrambledWords.reverse();
+
+var Unscrambled = scrambledWords.sort(function(a,b){
+    return a-b;
+});
