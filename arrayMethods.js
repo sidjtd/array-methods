@@ -60,5 +60,9 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
     monthNameString = monthNames.toString();
 //INDEX OF
     var favoriteColor = colors.indexOf('Red');
-    var favoriteEvenNumber =
+    var favoriteEvenNumber = mixedNums.indexOf(76);
+//LAST INDEX
+    var lastNine = bulkNumbers.lastIndexOf(9);
+    var lastFive = bulkNumbers.lastIndexOf(5);
+    
 console.log(brownOnly);
